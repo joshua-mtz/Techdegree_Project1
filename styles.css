@@ -62,14 +62,15 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 7px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(20deg);
+  transform: scale(1.2) rotate(325deg);
 }
 .header1 {
   text-align: center;
+  /*Image taken from https://www.texastribune.org/2020/04/17/laredo-strict-coronavirus-measures-coronavirus.*/
   background: url('images/laredo.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
@@ -77,6 +78,7 @@ header .profile-image:hover {
 }
 .header2 {
   text-align: center;
+  /*Image taken from https://en.ccunesco.ca/blog/2020/3/the-international-day-of-mathematics-because-the-world-needs-math.*/
   background: url('images/math.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
@@ -85,6 +87,7 @@ header .profile-image:hover {
 }
 .header3 {
   text-align: center;
+  /*Image taken from https://www.proofhub.com/articles/email-alternatives.*/
   background: url('images/contact.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
